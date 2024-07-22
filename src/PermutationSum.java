@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 
 public class PermutationSum {
     private static int counter = 0;
-    ArrayList<String> arr = new ArrayList<String>();
+    ArrayList<String> permutationsList = new ArrayList<String>();
 
     public static void main(String[] args){
         PermutationSum program = new PermutationSum();
@@ -63,17 +63,11 @@ public class PermutationSum {
     public void generatePermutationsB(String res, String b, String a, String c) {
         int n = b.length();
         if (n == 0) {
-            if(Integer.parseInt(res) + Integer.parseInt(a) == Integer.parseInt(c)) {
-                String str;
-                arr.add(str = new StringBuilder().append(a).append(res).toString());
-                if(counter == 0){
-                    System.out.println(a + " " + res);
-                    counter++;
-                }
-                if (counter >= 1 && !arr.contains(str)) {
-                    System.out.println(a + " " + res);
-                    counter++;
-                }
+            if(Integer.parseInt(res)+Integer.parseInt(a)==Integer.parseInt(c)) {
+                String str = new StringBuilder().append(a).append(res).toString();
+                if (!permutationsList.contains(str)) permutationsList.add(str);
+                System.out.println(a + " " + res);
+                counter++;
             }
         } else {
             for (int i = 0; i < n; i++)
