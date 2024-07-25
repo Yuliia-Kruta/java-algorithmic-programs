@@ -48,7 +48,6 @@ public class RecursiveFibonacciFactorialNumOfDigits {
         scanner.close();
     }
 
-    // Optimized Fibonacci calculation using an iterative approach
     private static int fibonacci(int n) {
         if (n < 2) {
             return n;
