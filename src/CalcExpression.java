@@ -1,12 +1,12 @@
 import java.util.regex.Pattern;
 
-public class CalcExpression1 {
+public class CalcExpression {
     public static void main(String[] args){
-        String[][] states={{"+",""},{"|-|","-"},{")",""},{"(",""},{"-|","|"},{"|-","|."},{"-","0."}};
-        String str="||||||-(||||+||)";
-        System.out.println(expression1(str,states));
+        String[][] states={{"+",""},{"|-|","-"},{")",""},{"(",""},{"|-","|."},{"-|","negative |"},{"-","0."}};
+        String str="||||||||-(||||+||)";
+        System.out.println(expression2(str,states));
     }
-    public static String expression1(String namEnter, String[][] states){
+    public static String expression2(String namEnter, String[][] states){
         boolean shouldRepeat = true;
         while(shouldRepeat){
             shouldRepeat=false;
