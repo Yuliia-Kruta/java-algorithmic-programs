@@ -2,9 +2,9 @@ import java.util.regex.Pattern;
 
 public class GCD {
     public static void main(String[] args){
-        String[][] states={{" і ",""},{"*a","%a"},{"*b","%b"},{"*c","&c"},{"%a","a%"},{"%b","a%"},{"%c","b%"},{"%",""},
+        String[][] states={{" and ",""},{"*a","%a"},{"*b","%b"},{"*c","&c"},{"%a","a%"},{"%b","a%"},{"%c","b%"},{"%",""},
                 {"&c","a&"},{"&","."},{"cb","bc"},{"ab","c"},{"","*"}};
-        String str="aa і bbbbbbbb";
+        String str="aa and bbbbbbbb";
         System.out.println(gcd(str,states));
     }
     public static String gcd(String namEnter, String[][] states){
