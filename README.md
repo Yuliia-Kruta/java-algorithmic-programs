@@ -70,9 +70,9 @@ To get a local copy up and running, follow these simple steps:
 
 Clone the turing-test branch.<br/><br/>
 Compile the program using javac:<br/>
-javac TuringTest.java<br/><br/>
+javac ProgramName.java<br/><br/>
 Run the compiled program using java:<br/>
-java TuringTest
+java ProgramName
 
 <h2>License</h2>
 Distributed under the MIT License. See LICENSE for more information.
