@@ -34,4 +34,23 @@ public class TuringMachine {
         }
         return infString.getWholeString();
     }
+    public String runEx3() {
+        while (currentStateIndex != -1) {
+            char currentSymbol = infString.getCharAt(currentIndex);
+            currentAlphabetIndex = alphabet.indexOf(currentSymbol);
+            Rule currentRule = rules[currentAlphabetIndex][currentStateIndex];
+            currentStateIndex = currentRule.getGoTo();
+            infString.setCharAt(currentIndex, currentRule.getReplace());
+            if (currentRule.getMove() == Move.R) {
+                currentIndex++;
+            }
+            if(currentRule.getMove()== Move.L){
+                currentIndex--;
+            }
+            System.out.println(infString.getWholeString());
+        }
+        System.out.println(currentIndex);
+
+        return infString.getWholeString();
+    }
 }

@@ -43,8 +43,8 @@ public class TuringTestAdvanced {
         rulesEx3[2][1] = new Rule('_', Move.N, -1);
         rulesEx3[4][1] = new Rule('_', Move.R, 1);
 
-        //TuringMachine transferIn10 = new TuringMachine(alphabet, rulesEx3, "|||", -1);
-        //System.out.println(transferIn10.runEx3());
+        TuringMachine transferIn10 = new TuringMachine(alphabet, rulesEx3, "|||", -1);
+        System.out.println(transferIn10.runEx3());
     }
 }
 
