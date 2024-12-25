@@ -15,7 +15,7 @@ This mutual relationship defines them as amicable.
 
 <h2>Getting Started</h2>
 To get a local copy up and running, follow these simple steps:
-<br/>
+<br/><br/>
 
 Clone the java-algorithmic-programs repository:<br/>
 git clone https://github.com/Yuliia-Kruta/java-algorithmic-programs.git<br/><br/>
