@@ -17,11 +17,13 @@ This mutual relationship defines them as amicable.
 To get a local copy up and running, follow these simple steps:
 <br/>
 
-Clone the amicable-numbers branch.<br/><br/>
-Compile the program using javac:<br/>
-javac AmicableNumbers.java<br/><br/>
-Run the compiled program using java:<br/>
-java AmicableNumbers
+Clone the java-algorithmic-programs repository:<br/>
+git clone https://github.com/Yuliia-Kruta/java-algorithmic-programs.git<br/><br/>
+Navigate to the project directory:<br/>
+cd java-algorithmic-programs<br/><br/>
+Checkout the branch:<br/>
+git checkout amicable-numbers<br/><br/>
+Open the project in your preferred IDE.
 
 <h2>License</h2>
 Distributed under the MIT License. See LICENSE for more information.
