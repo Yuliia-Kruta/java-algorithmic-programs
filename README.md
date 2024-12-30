@@ -32,7 +32,7 @@ git clone https://github.com/Yuliia-Kruta/java-algorithmic-programs.git<br/><br/
 Navigate to the project directory:<br/>
 cd java-algorithmic-programs<br/><br/>
 Checkout the specific branch:<br/>
-git checkout <branch-name><br/><br/>
+git checkout \<branch-name\><br/><br/>
 Open the project in your preferred IDE.
 
 <h2>License</h2>
