@@ -39,7 +39,10 @@ Navigate to the project directory:<br/>
 cd java-algorithmic-programs<br/><br/>
 Checkout the branch:<br/>
 git checkout basic-algorithms<br/><br/>
-Open the project in your preferred IDE.
+Compile the program using javac:<br/>
+javac ProgramName.java<br/><br/>
+Run the compiled program using java:<br/>
+java ProgramName
 
 <h2>License</h2>
 Distributed under the MIT License. See LICENSE for more information.
