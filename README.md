@@ -26,7 +26,10 @@ Navigate to the project directory:<br/>
 cd java-algorithmic-programs<br/><br/>
 Checkout the branch:<br/>
 git checkout evaluate-rpn<br/><br/>
-Open the project in your preferred IDE.
+Compile the program using javac:<br/>
+javac EvaluateRPN.java<br/><br/>
+Run the compiled program using java:<br/>
+java EvaluateRPN
 
 <h2>License</h2>
 Distributed under the MIT License. See LICENSE for more information.
