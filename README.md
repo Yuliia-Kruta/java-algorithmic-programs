@@ -74,7 +74,11 @@ Navigate to the project directory:<br/>
 cd java-algorithmic-programs<br/><br/>
 Checkout the branch:<br/>
 git checkout turing-test<br/><br/>
-Open the project in your preferred IDE.
+Compile the program using javac:<br/>
+javac ProgramName.java<br/><br/>
+Run the compiled program using java:<br/>
+java ProgramName<br/><br/>
+*ProgramName is TuringTestBasic or TuringTestAdvanced
 
 <h2>License</h2>
 Distributed under the MIT License. See LICENSE for more information.
